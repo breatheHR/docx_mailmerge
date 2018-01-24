@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem "zipruby-compat", :require => 'zipruby', :git => "git@github.com:jawspeak/zipruby-compatibility-with-rubyzip-fork.git", :tag => "v0.3.7"
+
 # Specify your gem's dependencies in docx_mailmerge.gemspec
 gemspec
 
